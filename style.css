@@ -3,7 +3,13 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Font;
+    src: url(/88027--Cropar--abasvp.ir--/88027--Cropar--abasvp.ir--/Cropar.otf);
+}
+
 body{
+    font-family: Font;
     background-color: #663399;
 }
 
@@ -15,8 +21,18 @@ body{
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 7px;
-    width: 150px;
-    height: 60px;
+    width: 200px;
+    height: 70px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+        linear-gradient(338deg, transparent 0%, #04a60d 100%), #f4c50c;
+    border-radius: 8px;
+    padding: 9px;
+    box-sizing: border-box;
 }
 .container:hover{
     cursor: pointer;
