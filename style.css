@@ -45,3 +45,15 @@ p{
     font-weight: bold;
 }
 
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0ad4e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* فاصله بین نوتیفیکیشن‌ها */
+    opacity: 0; /* نوتیفیکیشن در ابتدا پنهان باشد */
+    transition: opacity 0.3s ease; /* برای افکت ناپدید شدن */
+}
