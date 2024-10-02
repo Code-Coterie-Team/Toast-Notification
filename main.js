@@ -13,7 +13,7 @@ document.getElementById('notificationTrigger').addEventListener('click', functio
     // Show the notification
     setTimeout(() => {
         notification.style.opacity = '1'; // ظاهر شدن نوتیفیکیشن
-    }, 10); // کمی تأخیر برای نمایش افکت
+    }, 1); // کمی تأخیر برای نمایش افکت
 
     // Remove the notification after 3 seconds
     setTimeout(() => {
